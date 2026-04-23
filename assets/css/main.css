@@ -3026,7 +3026,7 @@ input, select, textarea {
 	height: 100%;
 }
 .center-fit {
-	max-width: 35%;
+	max-width: 45%;
 	max-height: 100vh;
 	margin: auto;
 }
