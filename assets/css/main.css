@@ -2017,20 +2017,22 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background: #fff;
+			background: #eee;
 		}
 
 			.wrapper.style2 .title {
-				background: #fff;
+				background: #eee;
 				color: #484d55;
 			}
 
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #eee;
+			/*background: #f3f3f3 url("images/overlay.png");*/
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: #eee;
+				/*background: #f3f3f3 url("images/overlay.png");*/
 				color: #484d55;
 			}
 
@@ -2110,16 +2112,16 @@ input, select, textarea {
 		}
 		
 		.logotexte {
-			margin-bottom: 6em;
+			margin-bottom: 8em;
 			position: fixed;
 			font-weight: 900;
 			text-transform: uppercase;
-			color: #fff;
-			font-size: 3em;
+			color: #333;
+			font-size: 2.5em;
 			line-height: 1em;
 			letter-spacing: 0.25em;
-			display: block;
-			background-color: rgba(60, 60, 60, 0.7);
+			/*display: block;*/
+			background-color: rgba(60, 60, 60, 0);
 		}
 
 
@@ -3019,20 +3021,55 @@ input, select, textarea {
 	color: rgb(30,30,30);
 	padding-bottom: -200em;
 	margin-bottom: -200em;
+	margin-left : 5%;
+	margin-right : 5%;
 }
 
 .imgbox {
 	display: grid;
 	height: 100%;
 }
+
 .center-fit {
-	max-width: 45%;
-	max-height: 100vh;
+	max-width: 35%;
+	max-width: 15em;
 	margin: auto;
+	border: solid 10px #fff;
 }
 
 .stylenavtext {
 	font-size: 16px;
 	font-weight: 900;
 	color: rgb(223,98,91);
+}
+
+.enveloppe {/*je comprends pas ce code mais disons que ça permet de faire un affichage en ligne de plusieurs éléments sans qu'ils ne se mettent en colonne sur un téléphone*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.evone {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.evtwo {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.evthree {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.evfour {
+  grid-column: 3;
+  grid-row: 3;
+}
+.evfive {
+  grid-column: 2;
+  grid-row: 4;
+}
+.evsix {
+  grid-column: 3;
+  grid-row: 4;
 }
