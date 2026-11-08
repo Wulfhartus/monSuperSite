@@ -45,7 +45,7 @@ monBas.innerHTML = `
 					</div>
 					</section>
 		<div id="copyright">
-		<p> Website last updated on 04/2026.</p>
+		<p> Website last updated on 11/2026.</p>
 		
 		<p>	This website template is <a href="https://html5up.net/uploads/demos/escape-velocity/">Escape Velocity</a>, released for
 		free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>.
